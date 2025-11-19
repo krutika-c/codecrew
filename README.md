@@ -2,6 +2,7 @@ Our app is an Android productivity application designed to help users manage the
 
 **Problem Statement**
 Users struggle to prioritize tasks, manage time, and stay productive due to lack of structure, motivation, and accountability—resulting in stress and missed deadlines.
+
 **Theme / Genre**
 Gamified Productivity & Personal Development — A collaborative task management platform that uses a virtual garden metaphor, Pomodoro-based focus cycles, and visual progress tracking to promote accountability, emotional wellness, and team engagement.
 

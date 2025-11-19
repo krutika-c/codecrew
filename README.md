@@ -4,6 +4,8 @@ Users struggle to prioritize tasks, manage time, and stay productive due to lack
 **Theme / Genre:**
 Productivity & personal development task management with analytics and social accountability
 
+Helping users build discipline, schedule tasks intelligently, and understand their work patterns
+
 **Idea Description:**
 The proposed solution is a Kotlin-based Android productivity application that integrates:
 1. The Eisenhower Matrix for structured task prioritization

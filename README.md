@@ -45,7 +45,8 @@ Tech Stack:
 
 **Tech Stack:**
 **Front-End:**
-Kotlin 
+Language:Kotlin 
 IDE: Android Studio
 
+**Notes**
 

@@ -1,12 +1,25 @@
+**TEAM-8**
+**TEAM MEMBERS:**
+
+1. Hima Varsha
+2. Aritrika Das
+3. Kumudwini Gottipati
+4. CR Krutika
+5. A Vamshika
+6. S Amulya
+
 **Problem Statement:**
+
 Users struggle to prioritize tasks, manage time, and stay productive due to lack of structure, motivation, and accountability resulting in stress and missed deadlines.
 
 **Theme / Genre:**
+
 Productivity & personal development task management with analytics and social accountability
 
 Helping users build discipline, schedule tasks intelligently, and understand their work patterns
 
 **Idea Description:**
+
 The proposed solution is a Kotlin-based Android productivity application that integrates:
 1. The Eisenhower Matrix for structured task prioritization
 2. Productivity resources for self-improvement
@@ -15,6 +28,7 @@ The proposed solution is a Kotlin-based Android productivity application that in
 
 
 **Non-Negotiable Features:**
+
 1.Eisenhower Matrix Task Manager :
 
 Four-quadrant task organization
@@ -31,6 +45,7 @@ Basic metrics (streaks, top days)
 
 
 **Good-to-Have Features:**
+
 1.Resources Provider :
 
 Curated tools and resources
@@ -46,8 +61,11 @@ Contact sync
 Tech Stack:
 
 **Tech Stack:**
+
 **Front-End:**
+
 Kotlin 
+
 IDE: Android Studio
 
 

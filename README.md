@@ -1,5 +1,4 @@
 **TEAM-8**
-**TEAM MEMBERS:**
 
 1. Hima Varsha
 2. Aritrika Das
@@ -71,5 +70,6 @@ IDE: Android Studio
 
 
 **Notes:**
+
 This project is a joint development effort between Team 8 and Team 10. Both teams work together on planning, feature development, testing, and documentation.
 

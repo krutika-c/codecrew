@@ -55,11 +55,15 @@ IDE: Android Studio
 Rough sketch of the app:
 
 Eisenhower Matrix:
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/2b0fa50c-8cc4-4bcd-ba3e-30d61f6470bd" />
+<img width="303" height="342" alt="image" src="https://github.com/user-attachments/assets/0ea06edf-a877-4be6-a5bf-2355caaf7048" />
+
 Resources Provider:
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/7a2ddc51-a239-4e46-bbba-f230e534b402" />
+<img width="224" height="331" alt="image" src="https://github.com/user-attachments/assets/60016002-be44-4f31-bcf6-acd6232f40c8" />
+
 Add Friends:
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/40f02fd6-7297-4fbb-8d97-8f9366dd3b37" />
+<img width="255" height="428" alt="image" src="https://github.com/user-attachments/assets/12aa0f62-763b-4d48-924e-8f2a349bb70e" />
+
 Productivity Analysis:
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/6c80edbe-f495-4d9f-be3a-fd0090a45a8c" />
+<img width="249" height="439" alt="image" src="https://github.com/user-attachments/assets/2890aa64-0372-4442-8450-a3bdc7c9eb9c" />
+
 

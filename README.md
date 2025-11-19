@@ -17,13 +17,12 @@ Deadline indicators for time-sensitive items
 2. Resources Provider:
 
 Curated productivity tools and resources hub
-Notion (Project Management & Notes)
-Team Communication Hubs
-Canva (Graphic Design)
+Notion
 Handpicked books and articles
 Desktop productivity tips
-Tutorial Videos: Video content for skill enhancement
+Tutorial Videos from Youtube
 Deep Work techniques
+These are provided with otehrs if available.
 
 3. Social Connectivity (Add Friends):
 

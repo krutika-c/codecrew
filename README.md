@@ -1,15 +1,15 @@
 **Problem Statement:**
-Users struggle to prioritize tasks, manage time, and stay productive due to lack of structure, motivation, and accountability—resulting in stress and missed deadlines.
+Users struggle to prioritize tasks, manage time, and stay productive due to lack of structure, motivation, and accountability resulting in stress and missed deadlines.
 
 **Theme / Genre:**
-Gamified Productivity & Personal Development — A collaborative task management platform that uses a virtual garden metaphor, Pomodoro-based focus cycles, and visual progress tracking to promote accountability, emotional wellness, and team engagement.
+Productivity & personal development task management with analytics and social accountability
 
 **Idea Description:**
-1. The proposed solution is a Kotlin-based Android productivity application that integrates:
-2. The Eisenhower Matrix for structured task prioritization
-3. Curated productivity resources for self-improvement
-4. Friend connectivity for accountability
-5. Productivity analytics for progress monitoring
+The proposed solution is a Kotlin-based Android productivity application that integrates:
+1. The Eisenhower Matrix for structured task prioritization
+2. Productivity resources for self-improvement
+3. Friend connectivity
+4. Productivity analytics for progress monitoring
 
 
 **Non-Negotiable Features:**
@@ -45,8 +45,7 @@ Tech Stack:
 
 **Tech Stack:**
 **Front-End:**
-Language:Kotlin 
+Kotlin 
 IDE: Android Studio
 
-**Notes**
 

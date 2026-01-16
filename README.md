@@ -1,6 +1,6 @@
 **TEAM-8**
 
-1. Hima Varsha
+1. Himavarsha
 2. Aritrika Das
 3. Kumudwini Gottipati
 4. CR Krutika

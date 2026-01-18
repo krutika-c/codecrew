@@ -5,7 +5,7 @@
 3. Kumudwini Gottipati
 4. CR Krutika
 5. A Vamshika
-6. S Amulya
+6. S amulya
 
 **Problem Statement:**
 

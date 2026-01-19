@@ -9,20 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CodeCrew">
-
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.CodeCrew" />
         <!-- Resource Provider Screen -->
-        <activity android:name=".ResourceProviderActivity" />
-
-        <!-- Main / Launcher Screen -->
+        <activity android:name=".ResourceProviderActivity" /> <!-- Main / Launcher Screen -->
+        <activity
+            android:name=".DashBoardActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

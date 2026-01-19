@@ -11,11 +11,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btn = findViewById<Button>(R.id.btnOpenResourceProvider)
+        val btnResource = findViewById<Button>(R.id.btnOpenResourceProvider)
+        val btnDashboard = findViewById<Button>(R.id.btnOpenDashboard)
 
-        btn.setOnClickListener {
-            val intent = Intent(this, ResourceProviderActivity::class.java)
-            startActivity(intent)
+        btnResource.setOnClickListener {
+            startActivity(Intent(this, ResourceProviderActivity::class.java))
+        }
+
+        btnDashboard.setOnClickListener {
+            startActivity(Intent(this, DashBoardActivity::class.java))
         }
     }
 }

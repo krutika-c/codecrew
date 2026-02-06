@@ -13,7 +13,7 @@
         android:id="@+id/suggestedFragment"
         android:name="com.example.add_friends.SuggestedFragment"
         android:label="Suggested"
-        tools:layout="@layout/fragment_suggested" />
+        tools:layout="@layout/fragment_suggested_friends" />
 
     <fragment
         android:id="@+id/todoFragment"
@@ -31,7 +31,7 @@
         android:id="@+id/myFriendsFragment"
         android:name="com.example.add_friends.MyFriendsFragment"
         android:label="Friends"
-        tools:layout="@layout/fragment_myfriends" />
+        tools:layout="@layout/fragment_my_friends" />
 
     <fragment
         android:id="@+id/resourcesFragment"

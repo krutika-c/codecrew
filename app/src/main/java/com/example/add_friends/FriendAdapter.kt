@@ -8,38 +8,32 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class FriendAdapter(
-    private val friends: List<Friend>,
-    private val onAddClicked: ((Friend) -> Unit)? = null,
-    private val showAddButton: Boolean = true   // NEW flag
+    private val friends: MutableList<Friend>,
+    private val mode: Mode,
+    private val onActionClick: (Friend) -> Unit
 ) : RecyclerView.Adapter<FriendAdapter.FriendViewHolder>() {
 
+    enum class Mode { ADD, ADDED }
+
     inner class FriendViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val nameText: TextView = itemView.findViewById(R.id.nameText)
-        val numberText: TextView = itemView.findViewById(R.id.numberText)
-        val addButton: Button = itemView.findViewById(R.id.addButton)
+        val profileInitial: TextView = itemView.findViewById(R.id.profileInitial)
+        val nameText: TextView = itemView.findViewById(R.id.friendName)
+        val actionButton: Button = itemView.findViewById(R.id.actionButton)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FriendViewHolder {
-        val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.item_friend, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_friend, parent, false)
         return FriendViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: FriendViewHolder, position: Int) {
         val friend = friends[position]
         holder.nameText.text = friend.name
-        holder.numberText.text = friend.number
+        holder.profileInitial.text = friend.name.first().toString()
 
-        if (showAddButton) {
-            holder.addButton.visibility = View.VISIBLE
-            holder.addButton.setOnClickListener {
-                onAddClicked?.invoke(friend)
-            }
-        } else {
-            // Hide the button in "Added Friends" section
-            holder.addButton.visibility = View.GONE
-        }
+        holder.actionButton.text = if (mode == Mode.ADD) "Add" else "Remove"
+        holder.actionButton.setOnClickListener { onActionClick(friend) }
     }
 
-    override fun getItemCount() = friends.size
+    override fun getItemCount(): Int = friends.size
 }

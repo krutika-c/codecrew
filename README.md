@@ -1,11 +1,10 @@
 **TEAM-8**
 
 1. Himavarsha
-2. Aritrika Das
-3. Kumudwini Gottipati
-4. CR Krutika
-5. A Vamshika
-6. S amulya
+2. Kumudwini Gottipati
+3. CR Krutika
+4. A Vamshika
+5. S amulya
 
 **Problem Statement:**
 

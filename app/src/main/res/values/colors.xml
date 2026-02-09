@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Brand Colors -->
+    <color name="primary">#4B6CB7</color>       <!-- Deep Blue -->
+    <color name="secondary">#5A67D8</color>     <!-- Soft Indigo -->
+    <color name="accent">#F6AD55</color>        <!-- Warm Orange -->
+
+    <!-- Backgrounds -->
+    <color name="background">#F7FAFC</color>    <!-- Light Gray / Neutral -->
+    <color name="card">#EDF2F7</color>          <!-- Slightly darker gray for cards -->
+
+    <!-- Text -->
+    <color name="text_primary">#1A202C</color>  <!-- Dark Gray / Almost Black -->
+    <color name="text_secondary">#4A5568</color> <!-- Medium Gray -->
+
+</resources>
